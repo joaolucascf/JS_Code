@@ -3,7 +3,7 @@ const print = function (text_) {
 }
 
 const obj = {
-  falar: function (name) {
+  say: function (name) {
     console.log(`Meu nome é ${name}`)
   }
 }
@@ -19,4 +19,4 @@ console.log(typeof array[6])
 
 array[0]('Marcos')
 array[0](array[5])
-array[6].falar(array[5])
+array[6].say(array[5])
